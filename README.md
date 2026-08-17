@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">🚀 ReplyPilot</h1>
+  <h1 align="center">🚀 REPLYPILOT</h1>
   <p align="center">
     <strong>AI-Powered YouTube Comment Management Platform</strong>
   </p>
@@ -13,7 +13,6 @@
     <a href="#getting-started">Getting Started</a> •
     <a href="#api-endpoints">API Endpoints</a> •
     <a href="#security">Security</a> •
-    <a href="#license">License</a>
   </p>
 </p>
 
@@ -114,14 +113,7 @@ flowchart LR
 - **HuggingFace** API token (for LLM inference and private model access)
 - **Pinecone** account (for RAG vector storage)
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/ashutosh2652/ReplyPilot.git
-cd ReplyPilot
-```
-
-### 2. Environment Variables
+### 1. Environment Variables
 
 Each service has its own `.env` file. Refer to the `.env.example` / `.env.sample` in each directory.
 
@@ -351,13 +343,3 @@ ReplyPilot/
 - **Shannon entropy spam detection** — fast-path structural check that rejects keyboard-smash and random-string comments before the ML model runs
 
 ---
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
-
----
-
-<p align="center">
-  Built with ❤️ by <strong>Ashutosh</strong>
-</p>
