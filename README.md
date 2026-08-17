@@ -114,14 +114,7 @@ flowchart LR
 - **HuggingFace** API token (for LLM inference and private model access)
 - **Pinecone** account (for RAG vector storage)
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/ashutosh2652/ReplyPilot.git
-cd ReplyPilot
-```
-
-### 2. Environment Variables
+### 1. Environment Variables
 
 Each service has its own `.env` file. Refer to the `.env.example` / `.env.sample` in each directory.
 
@@ -165,7 +158,7 @@ Each service has its own `.env` file. Refer to the `.env.example` / `.env.sample
 | `PINECONE_API_KEY` | Pinecone API key |
 | `PINECONE_INDEX_NAME` | Pinecone index name for transcript vectors |
 
-### 3. Install & Run Each Service
+### 2. Install & Run Each Service
 
 #### Client (React Frontend)
 
@@ -351,13 +344,3 @@ ReplyPilot/
 - **Shannon entropy spam detection** — fast-path structural check that rejects keyboard-smash and random-string comments before the ML model runs
 
 ---
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
-
----
-
-<p align="center">
-  Built with ❤️ by <strong>Ashutosh</strong>
-</p>
