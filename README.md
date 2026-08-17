@@ -117,8 +117,8 @@ flowchart LR
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/ashutosh2652/ReplyPilot.git
-cd ReplyPilot
+git clone https://github.com/viv387/REPLYPILOT.git
+cd REPLYPILOT
 ```
 
 ### 2. Environment Variables
@@ -358,6 +358,3 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 
 ---
 
-<p align="center">
-  Built with ❤️ by <strong>Ashutosh</strong>
-</p>
