@@ -117,8 +117,8 @@ flowchart LR
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/viv387/REPLYPILOT.git
-cd REPLYPILOT
+git clone https://github.com/ashutosh2652/ReplyPilot.git
+cd ReplyPilot
 ```
 
 ### 2. Environment Variables
@@ -165,7 +165,7 @@ Each service has its own `.env` file. Refer to the `.env.example` / `.env.sample
 | `PINECONE_API_KEY` | Pinecone API key |
 | `PINECONE_INDEX_NAME` | Pinecone index name for transcript vectors |
 
-### 3. Install & Run Each Service
+### 2. Install & Run Each Service
 
 #### Client (React Frontend)
 
@@ -358,3 +358,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 
 ---
 
+<p align="center">
+  Built with ❤️ by <strong>Ashutosh</strong>
+</p>
